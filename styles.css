@@ -1,0 +1,137 @@
+
+*{
+    margin:0px
+}
+.index{
+    
+    background-image: url(perritos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+}
+
+.principal{
+    /*border: 5px solid palegoldenrod;*/
+    width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+   text-align: center;
+
+
+}
+
+.principal_titulo{
+
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.principal_parrafo{
+    font-size: 20px;
+}
+
+.principal_button{
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: wheat;
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+body,html{ 
+    font-size: 16px;
+    max-height: 100%;
+    margin:0;
+}
+
+.redesSociales{ 
+    background-color: darksalmon;
+    height: 70px;
+}
+
+.redes_sociales_logo{ 
+    height:30px;
+    margin-left: 20px;
+    
+}
+
+.menu{ 
+    background-color: antiquewhite;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu_logotipo{ 
+    height: 60px;
+}
+
+.menu_lista{ 
+    display: flex;
+    list-style: none;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu_lista_link{
+    text-decoration: none;
+    color:black;
+ }
+
+ .menu_lista_elementos{ 
+    margin-left: 40px;
+}
+
+.menu_lista_link:hover{ 
+    color: whitesmoke;
+    }
+    
+    .footer{ 
+        background:linear-gradient(rgb(230, 164, 142), rgb(241, 222, 198));
+        height: 100px;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    
+    .footer_texto{ 
+        font-family:"play";
+        color:rgb(255, 253, 253);
+        font-size: 20px;
+    }
+    
+    .Lado_Derecho{
+        border: 7px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 150px;
+        margin-bottom: 150px;
+        align-items: flex-start;
+        background-color: rgb(247, 171, 211);
+        
+    }
+    
+    .Lado_Derecho__img{
+        width: 20%;
+        height: 20%;
+    }
+    
+    .Lado_Derecho__texto{
+        width: 35%;
+        justify-content: center;
+    }
+
+     h1,p{
+        margin: 30px;
+        text-align:center;
+    }
